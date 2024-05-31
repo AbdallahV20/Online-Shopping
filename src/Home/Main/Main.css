@@ -1,0 +1,38 @@
+.main .banner-container {
+    position: relative;
+    padding: 0;
+}
+.main .banner-container:nth-child(2) {
+    padding-left: 10px;
+}
+@media screen  and (max-width:769px) {
+    .main .banner-container:nth-child(2) {
+        padding-left: 0;
+    }  
+}
+
+
+.main .banner-info {
+    position: absolute;
+    bottom: 76px;
+    left:76px;
+    max-width: 280px;
+    padding-right: 5px;
+}
+.main .title {
+    font-size: 32px;
+    font-weight: 700;
+}
+.main .sub-title {
+    color: var(--sub-title-color);
+    font-size: 18px;
+}
+
+.banner {
+    height: 772px;
+}
+@media screen and (max-width:769px) {
+    .banner {
+        height: 400px;
+    }
+}

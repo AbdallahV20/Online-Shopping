@@ -1,0 +1,28 @@
+.get-started .container {
+    position: relative;
+    background-color: var(--section-color);
+    overflow: hidden;
+    border-radius: 12px;
+}
+.get-started .circle {
+    position: absolute;
+    z-index: 0;
+}
+.c1 {
+    left:-70px;
+    bottom: -100px;
+}
+.c2 {
+    left:50%;
+    transform: translateX(-50%);
+    bottom: 30%;
+}
+.get-started p {
+    color: var(--sub-title-color);
+}
+
+
+.mock-img,.get-started .info {
+    position: relative;
+    z-index: 1;
+}

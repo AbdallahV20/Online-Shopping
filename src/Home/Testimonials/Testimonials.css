@@ -1,0 +1,20 @@
+.testimonials {
+    position: relative;
+}
+.testimonials .background {
+    position: absolute;
+    z-index: -1;
+    top:50%;
+    transform: translateY(-50%);
+}
+.testimonials .box {
+    background-color: white;
+    padding: 32px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    border-radius: 12px;
+    transition: 0.3s;
+    min-height: 280px;
+}
+.testimonials .box:hover {
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.8);
+}

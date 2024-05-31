@@ -1,0 +1,14 @@
+.features-card span {
+    color:var(--sub-title-color)
+}
+.features-card {
+    background-color: #f8f8f8;
+    padding-bottom: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+.features-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}

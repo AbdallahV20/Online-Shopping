@@ -1,0 +1,47 @@
+.social-login {
+    background-color: #F8F8F8;
+}
+
+.social-login .social-links a {
+    font-size: 20px;
+    color:#9B9B9B;
+    transition: 0.3s;
+}
+.social-login .social-links a:hover {
+    color:var(--main-color)
+}
+
+.social-login .free-shipping-div {
+    width: 100%;
+}
+@media screen and (min-width:992px) {
+    .social-login .free-shipping-div {
+        width: fit-content;
+    }
+}
+.social-login .free-shipping {
+    font-size: 18px;
+    font-weight: 700;
+}
+.social-login .free-shipping::before {
+    content: url("../assets/images/fire.svg");
+    position: relative;
+    left:-5px;
+    top:1px
+}
+
+.social-login .btn-login , .btn-signup {
+    padding: 3px 15px;
+    border-radius: 7px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+.social-login .btn-login,.btn-signup:hover {
+    color: black;
+    background-color: transparent;
+}
+.social-login .btn-login:hover,.btn-signup {
+    background-color: black;
+    color: white;
+}

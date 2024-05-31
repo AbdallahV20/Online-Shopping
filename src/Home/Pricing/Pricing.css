@@ -1,0 +1,46 @@
+.pricing {
+    background-color: #B479D926;
+    position: relative;
+}
+.pricing .img-circle {
+    position: absolute;
+    z-index: -1;
+    left:50%;
+    top:50px;
+    transform: translateX(-50%);
+}
+.target {
+    font-size: 18px;
+    color:var(--sub-title-color)
+}
+.offers {
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 1px solid #EEEEEE;
+}
+.offers p {
+    padding-left: 35px;
+    position: relative;
+}
+.offers p::before {
+    content: url("../assets/images/right-sign.svg");
+    position: absolute;
+    left:0;
+    top:0;
+    border-radius: 50%;
+}
+.pricing button {
+    width: 100%;
+}
+
+.price {
+    transition: 0.3s;
+    background-color: white;
+}
+.price:hover {
+    background-color:var(--main-color);
+    color:white;
+}
+.price:hover .target {
+    color : white;
+}

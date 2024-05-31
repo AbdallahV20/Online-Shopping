@@ -1,0 +1,13 @@
+footer {
+    background-color: var(--section-color);
+}
+footer a {
+    display: block;
+    color:var(--sub-title-color);
+    margin-top: 10px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+footer a:hover {
+    color:#000
+}

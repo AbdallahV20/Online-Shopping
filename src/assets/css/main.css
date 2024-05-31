@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Jakara;
+    src: url('../fonts/Jakarta_Sans_Weight.ttf');
+}
+@font-face {
+    font-family: Jakara_Italic;
+    src: url('../fonts/Jakarta_Sans_Italic.ttf');
+}
+*,*::before,*::after {
+    font-family: Jakara;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+:root {
+    --main-color : #2EBB77;
+    --sub-title-color :#7E7E7E;
+    --section-color :#F5F5F5
+}
+
+.section-div {
+    text-align: center;
+    padding: 32px 0;
+}
+.section-div h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-div p {
+    color : var(--sub-title-color);
+    font-size: 20px;
+}
+@media screen and (max-width:769px) {
+    .section-div h2 {
+        font-size: 28px;
+    } 
+    .section-div p {
+        font-size: 18px;
+    }
+}
+
+.btn-main {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    color:white;
+    padding: 10px 40px;
+    border-radius: 12px;
+}
+.btn-main:hover {
+    background-color: transparent;
+    color:var(--main-color);
+    border: 1px solid var(--main-color);
+    
+}
+
+
+.form-control {
+    caret-color: var(--main-color);
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(46,187,119,0.6);
+    border-color: rgba(46,187,119,0.6);
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid var(--main-color);
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} 
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333; /* dark background color */
+      color: white; /* light text color */
+    }
+  }

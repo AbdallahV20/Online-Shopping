@@ -1,0 +1,23 @@
+.gallery .img-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+.gallery .img-container img {
+    transition: 0.3s;
+}
+.gallery .img-container img:hover {
+    transform: rotateZ(5deg) scale(1.1);
+
+}
+.gallery .img-container button {
+    position: absolute;
+    bottom: 20px;
+    left:50%;
+    transform: translateX(-50%);
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 9px;
+    padding: 8px 20px;
+    text-wrap: nowrap;
+}

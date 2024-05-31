@@ -1,0 +1,11 @@
+.featured-products-card {
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.featured-products-card:hover {
+    transform: translateY(-20px);
+}
+
+.product-title {
+    font-size: 18px;
+}

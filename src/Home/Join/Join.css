@@ -1,0 +1,50 @@
+.join .box {
+    position: relative;
+    padding: 180px 0;
+}
+.join .box img {
+    position: absolute;
+    z-index: -1;
+}
+@media screen and (max-width:769px) {
+    .join .box img {
+        display: none;
+    }   
+    .join .box {
+        padding: 20px;
+    }
+}
+.join .box img:nth-child(1) {
+    top:10%;
+    right:10%;
+}
+.join .box img:nth-child(2) {
+    top:50%;
+    right:0;
+    transform: translateY(-50%);
+}
+.join .box img:nth-child(3) {
+    bottom:5%;
+    right:10%;
+}
+.join .box img:nth-child(4) {
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+}
+.join .box img:nth-child(5) {
+    top:10%;
+    left:15%;   
+}
+.join .box img:nth-child(6) {
+    top:50%;
+    left:0;
+    transform: translateY(-50%);   
+}
+.join .box img:nth-child(7) {
+    bottom:12%;
+    left:15%
+}
+.join p {
+    color:var(--sub-title-color)
+}
